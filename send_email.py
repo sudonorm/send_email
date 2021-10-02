@@ -16,7 +16,9 @@ class EmailSender:
                    attachmentFileName: str = "test.csv"):
 
         '''
-            This function can be used to send an email via smtp. It also allows for the addition of attachments, currently pdfs and cssv have been tested to work. 
+            This function can be used to send an email via smtp. 
+            
+            It also allows for the addition of attachments; currently just pdfs and csvs have been tested to work. 
             
             It is set up to automatically bcc the sender a copy of the email, but this can be changed.
             
